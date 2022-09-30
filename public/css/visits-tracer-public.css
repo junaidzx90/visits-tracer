@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+ div#vt_view {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+}
+._minimize{
+    height: 0 !important;
+}
+._minimize_btn{
+    background-color: #03a9f4 !important;
+}
+span.minmaxbtn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 20px;
+    top: -20px;
+    background: red;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+.vt_contents {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.vt_contents h3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.hiddenCode {
+    margin-top: 10px;
+}
+.hiddenCode code {
+    font-style: italic;
+    font-weight: 600;
+    background: #e7e7e7;
+    padding: 2px 10px;
+}
+h3.vt_alerts {
+    font-size: 28px;
+    font-weight: bold;
+}
+h3.page_counts {
+    margin: 18px 0;
+    font-size: 24px;
+}
+h3.vt_timer {
+    font-size: 24px;
+}
+.hiddenAlert h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #6d6d6d;
+    font-weight: 500;
+    text-align: center;
+}
